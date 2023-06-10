@@ -17,8 +17,14 @@
 > (230610) 게시판 기능 순서도 & 데이터 베이스 작성
 
 ## 사용 기술
-Front-End : HTML / CSS / JavaScript / Ajax
-Back-End : Python / Django 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+Front-End : HTML(<i class="devicon-html5-plain colored"></i>) / CSS(
+            <i class="devicon-css3-plain colored"></i>) / JavaScript(
+            <i class="devicon-javascript-plain colored"></i>)   
+Back-End : Python(<i class="devicon-python-plain colored"></i>) / Django(<i class="devicon-django-plain colored"></i>)
+          
+          
 
 ## Template Reference
 > Template Name: PhotoFolio   
