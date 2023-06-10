@@ -16,6 +16,10 @@
 > (230529) 영수 게시판 개발 시작!      
 > (230610) 게시판 기능 순서도 & 데이터 베이스 작성
 
+## 사용 기술
+Front-End : HTML / CSS / JavaScript / Ajax
+Back-End : Python / Django 
+
 ## Template Reference
 > Template Name: PhotoFolio   
 > Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/  
