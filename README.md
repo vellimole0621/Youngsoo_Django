@@ -19,10 +19,8 @@
 ## 사용 기술
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-Front-End : HTML(<i class="devicon-html5-plain colored"></i>) / CSS(
-            <i class="devicon-css3-plain colored"></i>) / JavaScript(
-            <i class="devicon-javascript-plain colored"></i>)   
-Back-End : Python(<i class="devicon-python-plain colored"></i>) / Django(<i class="devicon-django-plain colored"></i>)
+Front-End : HTML / CSS / JavaScript  
+Back-End : Python / Django
           
           
 
