@@ -8,10 +8,22 @@
       <link rel="stylesheet" href="{% static 'css/main.css' %}">
   </head>
   <body>
-    <div class="picture"><img class="pic_robot" src="/static/pic/mj_robot.png" /></div>
-    <div class="admin">
-      <p id="user_ID">User ID : adf415</p>
-      <p id="ad">Administer Page</p>
+    <div class="main_box">
+        <div class="box_1">
+        <div id="main_pic_po">
+            <img id="main_pic" src="/static/img/pic_1.jpeg" />
+        </div>
+        <div id="main_text">
+            <p id="YS_kr">김 영수</p>
+            <p id="YS_en">(KIM YOUNGSOO, The Great Hamster)</p>
+            <p id="date_text">20200928~20220216</p>
+        </div>
+        </div>
+        <div class="box_2">
+            <div onclick="location.href='rand_pics.html'" id="rand_box">
+                <p>무작위 사진</p></div>
+            <div onclick="location.href='pics.html'" id="pics_box"><p>사진첩</p></div>
+        </div>
     </div>
     <script src="js/main.js"></script>
   </body>
