@@ -22,7 +22,12 @@
 Front-End : HTML / CSS / JavaScript  
 Back-End : Python / Django
           
-          
+## 체크 리스트
+1. 로그인 & 회원가입
+- [ ] 로그인 창 만들기
+- [ ] 회원가입
+
+2. 
 
 ## Template Reference
 > Template Name: PhotoFolio   
