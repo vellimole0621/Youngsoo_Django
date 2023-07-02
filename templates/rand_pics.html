@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YoungSoo_Page</title>
+      <link rel="stylesheet" href="{% static 'css/rand.css' %}">
+  </head>
+  <body>
+    <div class="main_box">
+        <div class="box_1">
+        <div id="main_pic_po">
+            <img id="main_pic" onclick="enlargeImg()" src="/static/img/pic_1.jpg" />
+        </div>
+        <div id="main_text">
+            <p id="YS_kr" onclick="resetImg()">김 영수</p>
+            <p id="YS_en">(KIM YOUNGSOO, The Great Hamster)</p>
+            <p id="date_text">20200928~20220216</p>
+        </div>
+        </div>
+        <div class="box_2">
+            <div onclick="location.href='rand_pics.html'" id="rand_box">
+                <p>무작위 사진</p></div>
+            <div onclick="location.href='pics.html'" id="pics_box"><p>사진첩</p></div>
+        </div>
+    </div>
+    <script defer src ="{% static 'js/main.js' %}"></script>
+  </body>
+</html>

@@ -17,10 +17,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import Sub, Rand_pics, Pics
+from Youngsoo_Django import views
+from django.conf import settings
+from django.urls import path, include
+from django.conf.urls.static import static
+from django.contrib import admin
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", Sub.as_view()),
-    path("rand_pics.html", Rand_pics.as_view()),
-    path("pics.html", Pics.as_view())
+    path("pics.html", Pics.as_view()),
+    path("rand_pics.html", include("posts.urls")),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "user",
     "content",
-    "Youngsoo_Django"
+    "Youngsoo_Django",
+    "posts",
 ]
 
 MIDDLEWARE = [
@@ -127,3 +128,7 @@ STATICFILES_DIRS = (os.path.join('static'),)
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Media
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"

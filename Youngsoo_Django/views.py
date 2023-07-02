@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from rest_framework.views import APIView
 
 
@@ -13,3 +13,4 @@ class Rand_pics(APIView):
 class Pics(APIView):
     def get(self, request):
         return render(request, "pics.html")
+
