@@ -1,27 +1,32 @@
-const img = document.getElementById("main_pic");
-
-// This handler will be executed only once when the cursor
-// moves over the unordered list
 function enlargeImg() {
-            img.style.width = "50%";
-            img.style.height = "auto";
-            img.style.transition = "width 0.5s ease";
+    const main_pi = document.getElementById("main_pic");
+    if(main_pi.style.width === "40%"){
+            main_pi.style.width = "70%";
+            main_pi.style.height = "auto";
+            main_pi.style.transition = "width 0.5s ease";
         }
+    else {
+        main_pi.style.width = "40%";
+        main_pi.style.height = "auto";
+        main_pi.style.transition = "width 0.5s ease";
+    }}
         // Function to reset image dimensions
-function resetImg() {
-    img.style.width = "30%";
-    img.style.height = "auto";
-    img.style.transition = "width 0.5s ease";
-}
 
 function coolHamster() {
     const ham = document.getElementById("cool_hamster");
-
-    ham.style.visibility = "visible";
+    if (ham.style.visibility === "hidden") {
+        ham.style.visibility = "visible";
+    } else {
+        ham.style.visibility = "hidden";
+    }
 }
 
-function unCoolHamster() {
-    const ham = document.getElementById("cool_hamster");
+function mouseover_dude() {
+    const rand_box = document.getElementById("rand_box_p");
+    rand_box.style.width = "30%";
+}
 
-    ham.style.visibility = "hidden";
+function mouseover_du() {
+    const rand_box = document.getElementById("rand_box_p");
+    rand_box.style.width = "70%";
 }

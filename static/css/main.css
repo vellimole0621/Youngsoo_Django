@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
-* {
+body {
+    min-height: 120vh;
+    max-width: 700px;
     background-color: bisque;
     font-family: 'Gamja Flower', cursive;
+    margin: 0 auto;
 }
